@@ -1,0 +1,5 @@
+fruits = ['apple', 'orange', 'pear']
+del fruits[1]
+print(fruits) # ['apple', 'pear']
+del fruits[1]
+print(fruits) # ['apple']
