@@ -1,0 +1,16 @@
+pops = {'New South Wales': 7757843,
+        'Victoria': 6100877,
+        'Queensland': 4860448,
+        'South Australia': 1710804,
+        'Western Australia': 2623164,
+        'Tasmania': 519783,
+        'Nothern Territory': 245657,
+        'Australian Capital Territory': 398349}
+
+print(pops['Victoria'])
+print()
+for p in pops:
+    print(p, ' : ', pops[p])
+print()
+for k in pops.keys():
+    print(k, ' : ', pops[k])
