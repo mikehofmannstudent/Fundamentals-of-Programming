@@ -1,0 +1,16 @@
+import pandas as pd
+surveys_df = pd.read_csv("surveys.csv")
+print(surveys_df)
+
+print(surveys_df.columns.values)
+print()
+print(pd.unique(surveys_df['species_id']))
+print()
+print(surveys_df['weight'].describe())
+print()
+print(surveys_df['weight'].min())
+print(surveys_df['weight'].max())
+print(surveys_df['weight'].mean())
+print(surveys_df['weight'].std())
+print(surveys_df['weight'].count())
+print()

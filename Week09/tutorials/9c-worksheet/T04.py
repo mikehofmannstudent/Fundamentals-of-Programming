@@ -1,0 +1,20 @@
+import pandas as pd
+surveys_df = pd.read_csv("surveys.csv")
+print(surveys_df)
+
+print()
+print(type(surveys_df))
+print()
+print(surveys_df.dtypes)
+print()
+print(surveys_df.columns)
+print()
+print(surveys_df.shape)
+print()
+
+print()
+print(surveys_df.head())
+print()
+print(surveys_df.head(15))
+print()
+print(surveys_df.tail())
